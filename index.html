@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Central Application Repository</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Welcome to CAR</h1>
+
+        <nav>
+          <a href="about.html" class="nav-button">About</a> &nbsp; &nbsp; &nbsp;
+          <a href="contact.html" class="nav-button">Contact</a>
+        </nav>
+      </header>
+      <section class="main">
+        <aside>
+          <h4>Inventory Type</h4>
+          <ul>
+            <li>
+              <a href="BusinessCapability.html">Business Capability</a>
+            </li>
+            <li>
+              <a href="BusinessApplication.html">Business Application</a>
+            </li>
+            <li>
+              <a href="ApplicationService.html">Application Service</a>
+            </li>
+            <li>
+              <a href="Instances.html">Application Service Instance</a>
+            </li>
+            <li>
+              <a href="Component.html">Component</a>
+            </li>
+          </ul>
+        </aside>
+        <article>
+          <p>
+            CAR stands for
+            <span style="color: brown">"Central Access Repository"</span>. It is
+            a Centrailzed application which tracks all Deluxe Corp's
+            Products.<br /><br />
+
+            It has 3 User Accessibilities - <em>Admin, Member, Viewer</em>.
+          </p>
+          <hr style="color: rgb(194, 130, 46)" />
+          <h4>Admin</h4>
+
+          <p>
+            The Admin persona has access to all
+            <strong>CRUD</strong> operations
+          </p>
+
+          <h4>Member</h4>
+          <p>
+            The Member persona has access to only specific services on which he
+            can perform CRUD operations. He can only perform edit operation when
+            he is the owner of a specific Inventory
+          </p>
+          <h4>Viewer</h4>
+          <p>
+            The Viewer persona has can only read the data. He can't update or
+            add new data in the application
+          </p>
+        </article>
+      </section>
+      <footer>
+        &copy; Deluxe Corp 2024 &nbsp Designed By Rajatsingh Rajput
+      </footer>
+    </div>
+  </body>
+</html>
